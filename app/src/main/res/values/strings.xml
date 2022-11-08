@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">ToDo</string>
+    <string name="clear_all">Clear All</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">To Do List</string>
+    <string name="second_fragment_label">Calendar View</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="default_todo_text">Eat breakfast</string>
+    <string name="default_date_text">2022–10–30 05:30</string>
+    <string name="default_category_text">Health</string>
+    <string name="select_category">Select a category:</string>
+    <string name="task">Task</string>
+    <string name="due_date">Due Date</string>
+    <string name="done">Done</string>
+    <string name="add_todo_button">Add todo button</string>
+    <string name="done_checkbox">Done</string>
+    <string-array name="categories">
+        <item>Health</item>
+        <item>Work</item>
+        <item>Leisure</item>
+        <item>Learning</item>
+        <item>Groceries</item>
+        <item>Appointments</item>
+        <item>Other</item>
+    </string-array>
+</resources>

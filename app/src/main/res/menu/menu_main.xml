@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.todo.MainActivity">
+    <item
+        android:id="@+id/clearAll"
+        android:orderInCategory="100"
+        android:title="@string/clear_all"
+        app:showAsAction="never" />
+
+</menu>

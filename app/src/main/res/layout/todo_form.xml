@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/taskInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/default_todo_text"
+        android:textSize="18sp"
+        android:layout_marginHorizontal="20dp"
+        android:paddingTop="25dp"
+        android:paddingBottom="25dp"/>
+
+    <EditText
+        android:id="@+id/dateInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/default_date_text"
+        android:textSize="18sp"
+        android:focusable="false"
+        android:layout_marginHorizontal="20dp"
+        android:paddingTop="25dp"
+        android:paddingBottom="25dp"/>
+
+    <Spinner
+        android:id="@+id/categoryInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="18sp"
+        android:paddingTop="25dp"
+        android:paddingBottom="25dp"
+        android:overlapAnchor="false"
+        android:dropDownWidth="180dp"/>
+
+    <CheckBox android:id="@+id/doneInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="18sp"
+        android:text="@string/done_checkbox"/>
+
+</LinearLayout>
